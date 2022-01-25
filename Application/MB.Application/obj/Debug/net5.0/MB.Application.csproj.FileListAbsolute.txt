@@ -1,0 +1,17 @@
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\MB.Application.deps.json
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\MB.Application.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\ref\MB.Application.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\MB.Application.pdb
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\MB.Application.Contracts.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\MB.Domain.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\MB.Domain.pdb
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\MB.Application.Contracts.pdb
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.csproj.AssemblyReference.cache
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.AssemblyInfoInputs.cache
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.AssemblyInfo.cs
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.csproj.CoreCompileInputs.cache
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.csproj.CopyComplete
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\ref\MB.Application.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.pdb

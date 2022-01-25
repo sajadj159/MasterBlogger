@@ -1,0 +1,393 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Presentation\\MB.Presentation.MVCCore\\MB.Presentation.MVCCore.csproj": {}
+  },
+  "projects": {
+    "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
+        "projectName": "MB.Application.Contracts",
+        "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\sajad\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sajad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application\\MB.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application\\MB.Application.csproj",
+        "projectName": "MB.Application",
+        "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application\\MB.Application.csproj",
+        "packagesPath": "C:\\Users\\sajad\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sajad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+              },
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj",
+        "projectName": "MB.Domain",
+        "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj",
+        "packagesPath": "C:\\Users\\sajad\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sajad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj",
+        "projectName": "MB.Infrastructure.Core",
+        "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj",
+        "packagesPath": "C:\\Users\\sajad\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sajad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+              },
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application\\MB.Application.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application\\MB.Application.csproj"
+              },
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj",
+        "projectName": "MB.Infrastructure.EFCore",
+        "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\sajad\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sajad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Presentation\\MB.Presentation.MVCCore\\MB.Presentation.MVCCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Presentation\\MB.Presentation.MVCCore\\MB.Presentation.MVCCore.csproj",
+        "projectName": "MB.Presentation.MVCCore",
+        "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Presentation\\MB.Presentation.MVCCore\\MB.Presentation.MVCCore.csproj",
+        "packagesPath": "C:\\Users\\sajad\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Presentation\\MB.Presentation.MVCCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sajad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+              },
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
