@@ -1520,9 +1520,22 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "MB.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        }
+      },
       "MB.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MB.Application.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MB.Domain.dll": {}
         },
@@ -5798,6 +5811,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "MB.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../Application/MB.Application.Contracts/MB.Application.Contracts.csproj",
+      "msbuildProject": "../../Application/MB.Application.Contracts/MB.Application.Contracts.csproj"
+    },
     "MB.Domain/1.0.0": {
       "type": "project",
       "path": "../../Domain/MB.Domain/MB.Domain.csproj",
@@ -5806,6 +5824,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MB.Application.Contracts >= 1.0.0",
       "MB.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.13",
@@ -5839,6 +5858,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+              "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+            },
             "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj": {
               "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj"
             }

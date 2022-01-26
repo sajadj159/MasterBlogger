@@ -1,14 +1,31 @@
 ﻿using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
-using MB.Domain.ArticleCategoryAgg;
+using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EFCore.Repository
 {
     public class ArticleRepository:IArticleRepository
     {
-        public List<Article> GetAll()
+        private readonly MasterBloggerContext _context;
+
+        public ArticleRepository(MasterBloggerContext context)
         {
-            throw new System.NotImplementedException();
+            _context = context;
+        }
+
+        public List<ArticleViewModel> GetAll()
+        {
+            return _context.Articles.Include(x => x.ArticleCategory).Select(x => new ArticleViewModel
+            {
+                Id = x.Id,
+                Title = x.Title,
+                CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
+                IsDeleted = x.IsDeleted,
+                ArticleCategory = x.ArticleCategory.Title
+            }).OrderByDescending(x=>x.Id).ToList();
         }
     }
 }

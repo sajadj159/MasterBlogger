@@ -27,11 +27,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj": {
-                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -146,7 +142,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

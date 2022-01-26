@@ -1,5 +1,7 @@
 ﻿using MB.Application;
+using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
+using MB.Domain.ArticleAgg;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Services;
 using MB.Infrastructure.EFCore;
@@ -16,6 +18,10 @@ namespace MB.Infrastructure.Core
             service.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
             service.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
             service.AddTransient<IArticleCategoryValidator,ArticleCategoryValidator>();
+
+            service.AddTransient<IArticleRepository, ArticleRepository>();
+            service.AddTransient<IArticleApplication, ArticleApplication>();
+
             service.AddDbContext<MasterBloggerContext>(options => options.UseSqlServer(connectionString));
         }
     }
