@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Domain\\MB.Domain\\MB.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
