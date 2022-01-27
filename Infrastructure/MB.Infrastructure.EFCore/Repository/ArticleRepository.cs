@@ -43,6 +43,5 @@ namespace MB.Infrastructure.EFCore.Repository
         {
             _context.SaveChanges();
         }
-
     }
 }

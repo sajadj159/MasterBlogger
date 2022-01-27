@@ -18,5 +18,17 @@ namespace MB.Presentation.MVCCore.Areas.Administrator.Pages.ArticleManagement
         {
             Articles = _articleApplication.List();
         }
+
+        public void OnPostActivate(long id)
+        {
+            _articleApplication.Active(id);
+            OnGet();
+        }
+
+        public void OnPostDeactivate(long id)
+        {
+            _articleApplication.Remove(id);
+            OnGet();
+        }
     }
 }
