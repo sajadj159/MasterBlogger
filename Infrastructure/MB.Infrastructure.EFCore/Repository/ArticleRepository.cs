@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EFCore.Repository
 {
-    public class ArticleRepository:IArticleRepository
+    public class ArticleRepository : IArticleRepository
     {
         private readonly MasterBloggerContext _context;
 
@@ -25,7 +25,19 @@ namespace MB.Infrastructure.EFCore.Repository
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
                 IsDeleted = x.IsDeleted,
                 ArticleCategory = x.ArticleCategory.Title
-            }).OrderByDescending(x=>x.Id).ToList();
+            }).OrderByDescending(x => x.Id).ToList();
         }
+
+        public void CreateAndSave(Article entity)
+        {
+            _context.Articles.Add(entity);
+            Save();
+        }
+
+        public void Save()
+        {
+            _context.SaveChanges();
+        }
+
     }
 }

@@ -5,9 +5,9 @@
  
 <div class="card">
     <div class="card-header">
-        <h3 class="float-left">Article</h3>
+        <h3 class="float-left">Article List</h3>
         <div class="float-right">
-            <a class="btn btn-success" asp-page="./Create" asp-area="Administrator">Add New</a>
+            <a class="btn btn-success" asp-page="./Create" asp-area="Administrator">New</a>
         </div>
     </div>
     <div class="card-body">
@@ -41,7 +41,7 @@
                         </th>
                         <th>@article.CreationDate</th>
                         <th>
-                            <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@article.Id">Rename</a>
+                            <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@article.Id">Edit</a>
                             @if (article.IsDeleted)
                             {
                                 <form method="post" asp-page-handler="Activate" class="float-left">

@@ -25,7 +25,7 @@ namespace MB.Presentation.MVCCore.Pages
 
         //public RedirectToPageResult OnPost(AddComment command)
         //{
-        //    _commentApplication.Add(command);
+        //    _commentApplication.CreateAndSave(command);
         //    return RedirectToPage("./ArticleDetails", new { id = command.ArticleId });
         //}
     }
