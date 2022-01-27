@@ -88,3 +88,4 @@ D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\ob
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\MB.Presentation.MVCCore.pdb
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\MB.Presentation.MVCCore.genruntimeconfig.cache
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Create.cshtml.g.cs
+D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Edit.cshtml.g.cs

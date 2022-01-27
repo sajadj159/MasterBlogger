@@ -10,6 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Application\MB.Application.Contracts\MB.Application.Contracts.csproj" />
     <ProjectReference Include="..\..\Infrastructure\MB.Infrastructure.Core\MB.Infrastructure.Core.csproj" />
   </ItemGroup>

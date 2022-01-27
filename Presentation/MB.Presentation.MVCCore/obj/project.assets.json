@@ -5791,7 +5791,8 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "MB.Application.Contracts >= 1.0.0",
-      "MB.Infrastructure.Core >= 1.0.0"
+      "MB.Infrastructure.Core >= 1.0.0",
+      "System.Diagnostics.DiagnosticSource >= 5.0.1"
     ]
   },
   "packageFolders": {
@@ -5839,6 +5840,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
