@@ -43,5 +43,10 @@ namespace MB.Infrastructure.EFCore.Repository
         {
             _context.SaveChanges();
         }
+
+        public bool Exist(string title)
+        {
+            return _context.Articles.Any(x => x.Title == title);
+        }
     }
 }

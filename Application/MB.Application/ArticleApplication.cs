@@ -1,16 +1,19 @@
 ﻿using System.Collections.Generic;
 using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
+using MB.Domain.ArticleAgg.Service;
 
 namespace MB.Application
 {
     public class ArticleApplication : IArticleApplication
     {
         private readonly IArticleRepository _articleRepository;
+        private readonly IArticleValidator _articleValidator;
 
-        public ArticleApplication(IArticleRepository articleRepository)
+        public ArticleApplication(IArticleRepository articleRepository, IArticleValidator articleValidator)
         {
             _articleRepository = articleRepository;
+            _articleValidator = articleValidator;
         }
 
         public List<ArticleViewModel> List()
@@ -43,7 +46,7 @@ namespace MB.Application
         {
             var article = _articleRepository.GetBy(command.Id);
             article.Edit(command.Title, command.ShortDescription, command.ImageUrl, command.Content,
-                command.ArticleCategoryId);
+                command.ArticleCategoryId,_articleValidator);
             _articleRepository.Save();
         }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using MB.Domain.ArticleAgg.Service;
 using MB.Domain.ArticleCategoryAgg;
 
 namespace MB.Domain.ArticleAgg
@@ -22,6 +23,7 @@ namespace MB.Domain.ArticleAgg
 
         public Article(string title, string shortDescription, string imageUrl, string content, long articleCategoryId)
         {
+            GuardForAgainstNUllArgument(title,shortDescription,imageUrl,articleCategoryId);
             Title = title;
             ShortDescription = shortDescription;
             ImageUrl = imageUrl;
@@ -31,8 +33,11 @@ namespace MB.Domain.ArticleAgg
             CreationDate=DateTime.Now;
         }
 
-        public void Edit(string title, string shortDescription, string imageUrl, string content, long articleCategoryId)
+        public void Edit(string title, string shortDescription, string imageUrl, string content, long articleCategoryId,IArticleValidator validator)
         {
+            GuardForAgainstNUllArgument(title,shortDescription,imageUrl,articleCategoryId);
+            validator.CheckThatThisRecordsAlreadyExist(title);
+
             Title = title;
             ShortDescription = shortDescription;
             ImageUrl = imageUrl;
@@ -50,6 +55,15 @@ namespace MB.Domain.ArticleAgg
         {
             Id = id;
             IsDeleted = false;
+        }
+
+        public  static void GuardForAgainstNUllArgument(string title, string shortDescription, string imageUrl,long articleCategoryId)
+        {
+            if (string.IsNullOrWhiteSpace(title)||string.IsNullOrWhiteSpace(shortDescription)||string.IsNullOrWhiteSpace(imageUrl))
+                throw new ArgumentNullException();
+
+            if (articleCategoryId == 0)
+                throw new ArgumentOutOfRangeException();
         }
     }
 }
