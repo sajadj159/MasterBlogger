@@ -1,4 +1,4 @@
-﻿namespace MB.Domain.Comment
+﻿namespace MB.Domain.CommentAgg
 {
     public static class Statuses
     {

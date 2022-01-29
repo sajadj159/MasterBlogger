@@ -1,7 +1,7 @@
 ﻿using System;
 using MB.Domain.ArticleAgg;
 
-namespace MB.Domain.Comment
+namespace MB.Domain.CommentAgg
 {
     public class Comment
     {
