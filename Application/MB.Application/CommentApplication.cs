@@ -1,4 +1,5 @@
 ﻿using MB.Application.Contracts.Comment;
+using MB.Domain.CommentAgg;
 
 namespace MB.Application
 {
@@ -9,6 +10,12 @@ namespace MB.Application
         public CommentApplication(ICommentRepository commentRepository)
         {
             _commentRepository = commentRepository;
+        }
+
+        public void Add(AddComment command)
+        {
+            var comment = new Comment(command.Name,command.Message,command.Email,command.ArticleId);
+            _commentRepository.CreateAndSave(comment);
         }
     }
 }
