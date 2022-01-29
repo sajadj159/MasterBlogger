@@ -44,11 +44,13 @@ D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bi
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Domain.dll
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.Core.dll
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.EFCore.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.Query.dll
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Application.Contracts.pdb
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.Core.pdb
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Application.pdb
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Domain.pdb
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.EFCore.pdb
+D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.Query.pdb
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\MB.Presentation.MVCCore.csproj.AssemblyReference.cache
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\MB.Presentation.MVCCore.GeneratedMSBuildEditorConfig.editorconfig
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\MB.Presentation.MVCCore.AssemblyInfoInputs.cache
@@ -65,6 +67,8 @@ D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\ob
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Create.cshtml.g.cs
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Edit.cshtml.g.cs
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\List.cshtml.g.cs
+D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Create.cshtml.g.cs
+D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Edit.cshtml.g.cs
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\List.cshtml.g.cs
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Error.cshtml.g.cs
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Index.cshtml.g.cs
@@ -87,5 +91,3 @@ D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\ob
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\ref\MB.Presentation.MVCCore.dll
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\MB.Presentation.MVCCore.pdb
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\MB.Presentation.MVCCore.genruntimeconfig.cache
-D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Create.cshtml.g.cs
-D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Edit.cshtml.g.cs

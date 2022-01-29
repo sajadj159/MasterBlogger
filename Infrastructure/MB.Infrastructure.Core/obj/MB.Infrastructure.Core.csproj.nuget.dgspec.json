@@ -209,6 +209,9 @@
               },
               "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj"
+              },
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Query\\MB.Infrastructure.Query.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Query\\MB.Infrastructure.Query.csproj"
               }
             }
           }
@@ -307,6 +310,64 @@
               "version": "[5.0.13, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Query\\MB.Infrastructure.Query.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Query\\MB.Infrastructure.Query.csproj",
+        "projectName": "MB.Infrastructure.Query",
+        "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Query\\MB.Infrastructure.Query.csproj",
+        "packagesPath": "C:\\Users\\sajad\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sajad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Infrastructure\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",

@@ -21,9 +21,11 @@ namespace MB.Domain.ArticleAgg
         {
         }
 
-        public Article(string title, string shortDescription, string imageUrl, string content, long articleCategoryId)
+        public Article(string title, string shortDescription, string imageUrl, string content, long articleCategoryId,IArticleValidator validator)
         {
             GuardForAgainstNUllArgument(title,shortDescription,imageUrl,articleCategoryId);
+            validator.CheckThatThisRecordsAlreadyExist(title);
+
             Title = title;
             ShortDescription = shortDescription;
             ImageUrl = imageUrl;
@@ -33,11 +35,9 @@ namespace MB.Domain.ArticleAgg
             CreationDate=DateTime.Now;
         }
 
-        public void Edit(string title, string shortDescription, string imageUrl, string content, long articleCategoryId,IArticleValidator validator)
+        public void Edit(string title, string shortDescription, string imageUrl, string content, long articleCategoryId)
         {
             GuardForAgainstNUllArgument(title,shortDescription,imageUrl,articleCategoryId);
-            validator.CheckThatThisRecordsAlreadyExist(title);
-
             Title = title;
             ShortDescription = shortDescription;
             ImageUrl = imageUrl;
