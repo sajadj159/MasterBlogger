@@ -22,23 +22,7 @@ namespace MB.Application
 
         public List<CommentViewModel> List()
         {
-            var comments = _commentRepository.GetAll();
-
-            var commentViewModels = new List<CommentViewModel>();
-            foreach (var comment in comments)
-            {
-                commentViewModels.Add(new CommentViewModel()
-                {
-                    Id = comment.Id,
-                    Name = comment.Name,
-                    Email = comment.Email,
-                    Status = comment.Status,
-                    Article = comment.Article.Title,
-                    CreationDate = comment.CreationDate.ToString(CultureInfo.InvariantCulture)
-                });
-            }
-
-            return commentViewModels;
+          return  _commentRepository.GetAll();
         }
     }
 }

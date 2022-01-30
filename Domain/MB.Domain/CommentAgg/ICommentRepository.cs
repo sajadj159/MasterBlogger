@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using MB.Application.Contracts.Comment;
 
 namespace MB.Domain.CommentAgg
 {
     public interface ICommentRepository
     {
         void CreateAndSave(Comment entity);
-        List<Comment> GetAll();
+        List<CommentViewModel> GetAll();
     }
 }
