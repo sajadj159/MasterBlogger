@@ -1,4 +1,6 @@
-﻿using MB.Domain.CommentAgg;
+﻿using System.Collections.Generic;
+using System.Linq;
+using MB.Domain.CommentAgg;
 
 namespace MB.Infrastructure.EFCore.Repository
 {
@@ -15,6 +17,11 @@ namespace MB.Infrastructure.EFCore.Repository
         {
             _context.Comments.Add(entity);
             _context.SaveChanges();
+        }
+
+        public List<Comment> GetAll()
+        {
+            return _context.Comments.ToList();
         }
     }
 }
