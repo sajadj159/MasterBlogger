@@ -52,8 +52,8 @@
                                     <button class="btn btn-success">Confirm</button>
                                     <input type="hidden" name="id" value="@comment.Id" />
                                 </form>
-                                <form method="post" asp-page-handler="Deactivate" class="float-left">
-                                    <button class="btn btn-danger">Remove</button>
+                                <form method="post" asp-page-handler="Cancel" class="float-left">
+                                    <button class="btn btn-danger">Cancel</button>
                                     <input type="hidden" name="id" value="@comment.Id" />
                                 </form>
                             }

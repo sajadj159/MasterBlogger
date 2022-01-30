@@ -18,5 +18,17 @@ namespace MB.Presentation.MVCCore.Areas.Administrator.Pages.CommentManagement
         {
             Comments = _commentApplication.List();
         }
+
+        public void OnPostConfirm(long id)
+        {
+            _commentApplication.Confirm(id);
+            OnGet();
+        }
+
+        public void OnPostCancel(long id)
+        {
+            _commentApplication.Canceled(id);
+            OnGet();
+        }
     }
 }
