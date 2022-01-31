@@ -1,22 +1,22 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using Framework.Infrastructure;
 using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EFCore.Repository
 {
-    public class ArticleRepository : IArticleRepository
+    public class ArticleRepository :BaseRepository<long,Article>, IArticleRepository
     {
         private readonly MasterBloggerContext _context;
-
-        public ArticleRepository(MasterBloggerContext context)
+        public ArticleRepository(MasterBloggerContext context) : base(context)
         {
             _context = context;
         }
 
-        public List<ArticleViewModel> GetAll()
+        public List<ArticleViewModel> GetList()
         {
             return _context.Articles.Include(x => x.ArticleCategory).Select(x => new ArticleViewModel
             {
@@ -26,27 +26,6 @@ namespace MB.Infrastructure.EFCore.Repository
                 IsDeleted = x.IsDeleted,
                 ArticleCategory = x.ArticleCategory.Title
             }).OrderByDescending(x => x.Id).ToList();
-        }
-
-        public void CreateAndSave(Article entity)
-        {
-            _context.Articles.Add(entity);
-            Save();
-        }
-
-        public Article GetBy(long id)
-        {
-            return _context.Articles.FirstOrDefault(x => x.Id == id);
-        }
-
-        public void Save()
-        {
-            _context.SaveChanges();
-        }
-
-        public bool Exist(string title)
-        {
-            return _context.Articles.Any(x => x.Title == title);
         }
     }
 }

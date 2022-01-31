@@ -21,3 +21,5 @@ D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.Core\o
 D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.Core\obj\Debug\net5.0\MB.Infrastructure.Core.dll
 D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.Core\obj\Debug\net5.0\ref\MB.Infrastructure.Core.dll
 D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.Core\obj\Debug\net5.0\MB.Infrastructure.Core.pdb
+D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.Core\bin\Debug\net5.0\Framework.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.Core\bin\Debug\net5.0\Framework.pdb

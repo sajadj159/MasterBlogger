@@ -18,3 +18,5 @@ D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.EFCore
 D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.EFCore\obj\Debug\net5.0\ref\MB.Infrastructure.EFCore.dll
 D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.pdb
 D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.genruntimeconfig.cache
+D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.EFCore\bin\Debug\net5.0\Framework.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Infrastructure\MB.Infrastructure.EFCore\bin\Debug\net5.0\Framework.pdb

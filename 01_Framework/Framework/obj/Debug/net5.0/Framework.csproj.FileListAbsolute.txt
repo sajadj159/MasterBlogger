@@ -1,0 +1,12 @@
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\bin\Debug\net5.0\Framework.deps.json
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\bin\Debug\net5.0\Framework.dll
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\bin\Debug\net5.0\ref\Framework.dll
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\bin\Debug\net5.0\Framework.pdb
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\obj\Debug\net5.0\Framework.csproj.AssemblyReference.cache
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\obj\Debug\net5.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\obj\Debug\net5.0\Framework.AssemblyInfoInputs.cache
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\obj\Debug\net5.0\Framework.AssemblyInfo.cs
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\obj\Debug\net5.0\Framework.csproj.CoreCompileInputs.cache
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\obj\Debug\net5.0\Framework.dll
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\obj\Debug\net5.0\ref\Framework.dll
+D:\repos\C#\Master Blogger\MasterBlogger\01_Framework\Framework\obj\Debug\net5.0\Framework.pdb

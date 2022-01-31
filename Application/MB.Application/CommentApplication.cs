@@ -16,26 +16,24 @@ namespace MB.Application
         public void Add(AddComment command)
         {
             var comment = new Comment(command.Name, command.Message, command.Email, command.ArticleId);
-            _commentRepository.CreateAndSave(comment);
+            _commentRepository.Create(comment);
         }
 
         public List<CommentViewModel> List()
         {
-          return  _commentRepository.GetAll();
+          return  _commentRepository.GetList();
         }
 
         public void Confirm(long id)
         {
-            var comment = _commentRepository.GetBy(id);
+            var comment = _commentRepository.Get(id);
             comment.Confirm();
-            _commentRepository.Save();
         }
 
         public void Canceled(long id)
         {
-            var comment = _commentRepository.GetBy(id);
+            var comment = _commentRepository.Get(id);
             comment.Canceled();
-            _commentRepository.Save();
         }
     }
 }

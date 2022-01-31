@@ -15,3 +15,5 @@ D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\ne
 D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.dll
 D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\ref\MB.Application.dll
 D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\obj\Debug\net5.0\MB.Application.pdb
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\Framework.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Application\MB.Application\bin\Debug\net5.0\Framework.pdb

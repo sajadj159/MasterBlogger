@@ -92,3 +92,5 @@ D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\ob
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\MB.Presentation.MVCCore.pdb
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\MB.Presentation.MVCCore.genruntimeconfig.cache
 D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\CommentManagement\List.cshtml.g.cs
+D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\Framework.dll
+D:\repos\C#\Master Blogger\MasterBlogger\Presentation\MB.Presentation.MVCCore\bin\Debug\net5.0\Framework.pdb
