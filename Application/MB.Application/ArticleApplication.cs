@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Framework.Infrastructure;
 using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
 using MB.Domain.ArticleAgg.Service;
@@ -7,13 +8,15 @@ namespace MB.Application
 {
     public class ArticleApplication : IArticleApplication
     {
+        private readonly IUnitOfWork _uiOfWork;
         private readonly IArticleRepository _articleRepository;
         private readonly IArticleValidator _articleValidator;
 
-        public ArticleApplication(IArticleRepository articleRepository, IArticleValidator articleValidator)
+        public ArticleApplication(IArticleRepository articleRepository, IArticleValidator articleValidator, IUnitOfWork uiOfWork)
         {
             _articleRepository = articleRepository;
             _articleValidator = articleValidator;
+            _uiOfWork = uiOfWork;
         }
 
         public List<ArticleViewModel> List()
@@ -23,8 +26,10 @@ namespace MB.Application
 
         public void Create(CreateArticle command)
         {
+            _uiOfWork.BeginTran();
             var article = new Article(command.Title, command.ShortDescription, command.ImageUrl, command.Content, command.ArticleCategoryId, _articleValidator);
             _articleRepository.Create(article);
+            _uiOfWork.CommitTran();
         }
 
         public EditArticle GetBy(long id)
@@ -44,21 +49,27 @@ namespace MB.Application
 
         public void Edit(EditArticle command)
         {
+            _uiOfWork.BeginTran();
             var article = _articleRepository.Get(command.Id);
             article.Edit(command.Title, command.ShortDescription, command.ImageUrl, command.Content,
                 command.ArticleCategoryId);
+            _uiOfWork.CommitTran();
         }
 
         public void Remove(long id)
         {
+            _uiOfWork.BeginTran();
             var article = _articleRepository.Get(id);
             article.Remove();
+            _uiOfWork.CommitTran();
         }
 
         public void Active(long id)
         {
+            _uiOfWork.BeginTran();
             var article = _articleRepository.Get(id);
             article.Active();
+            _uiOfWork.CommitTran();
         }
     }
 }

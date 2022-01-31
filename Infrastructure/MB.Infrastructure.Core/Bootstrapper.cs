@@ -1,4 +1,5 @@
-﻿using MB.Application;
+﻿using Framework.Infrastructure;
+using MB.Application;
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Application.Contracts.Comment;
@@ -26,10 +27,12 @@ namespace MB.Infrastructure.Core
             service.AddTransient<IArticleRepository, ArticleRepository>();
             service.AddTransient<IArticleApplication, ArticleApplication>();
             service.AddTransient<IArticleValidator, ArticleValidator>();
-            service.AddTransient<IArticleQuery,ArticleQuery>();
+            service.AddTransient<IArticleQuery, ArticleQuery>();
 
             service.AddTransient<ICommentApplication, CommentApplication>();
             service.AddTransient<ICommentRepository, CommentRepository>();
+
+            service.AddTransient<IUnitOfWork, UnitOfWorkEf>();
 
             service.AddDbContext<MasterBloggerContext>(options => options.UseSqlServer(connectionString));
         }
