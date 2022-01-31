@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "Framework/1.0.0": {
+      "type": "project",
+      "path": "../../01_Framework/Framework/Framework.csproj",
+      "msbuildProject": "../../01_Framework/Framework/Framework.csproj"
+    },
     "MB.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../../Application/MB.Application.Contracts/MB.Application.Contracts.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Framework >= 1.0.0",
       "MB.Application.Contracts >= 1.0.0"
     ]
   },
@@ -53,6 +69,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\01_Framework\\Framework\\Framework.csproj": {
+              "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\01_Framework\\Framework\\Framework.csproj"
+            },
             "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
               "projectPath": "D:\\repos\\C#\\Master Blogger\\MasterBlogger\\Application\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
             }

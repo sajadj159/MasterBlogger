@@ -53,14 +53,14 @@ namespace MB.Application
         public void Remove(long id)
         {
             var article = _articleRepository.GetBy(id);
-            article.Remove(id);
+            article.Remove();
             _articleRepository.Save();
         }
 
         public void Active(long id)
         {
             var article = _articleRepository.GetBy(id);
-            article.Active(id);
+            article.Active();
             _articleRepository.Save();
         }
     }
