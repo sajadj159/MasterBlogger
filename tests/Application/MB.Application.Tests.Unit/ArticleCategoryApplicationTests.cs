@@ -72,5 +72,50 @@ namespace MB.Application.Tests.Unit
             //Assert
             _articleCategoryRepository.Received().Get(articleCategory.Id);
         }
+
+        [Fact]
+        public void Deactivate_ShouldDeactivateExistArticleCategory()
+        {
+            //Arrange
+            const int id = 15;
+            var articleCategory = new ArticleCategory("Something",_validator);
+            _articleCategoryRepository.Get(id).Returns(articleCategory);
+
+            //Act
+            _articleCategoryApplication.Deactivate(id);
+
+            //Assert
+            _articleCategoryRepository.Received().Get(id);
+        }
+
+        [Fact]
+        public void Activate_ShouldActivateExistArticleCategory()
+        {
+            //Arrange
+            const int id = 15;
+            var articleCategory = new ArticleCategory("Something", _validator);
+            _articleCategoryRepository.Get(id).Returns(articleCategory);
+
+            //Act
+            _articleCategoryApplication.Activate(id);
+
+            //Assert
+            _articleCategoryRepository.Received().Get(id);
+        }
+
+        [Fact]
+        public void GetBy_ShouldReturnAnArticleCategory_WhenIdIsExist()
+        {
+            //Arrange
+            const int id = 16;
+            var articleCategory = new ArticleCategory("someThing",_validator);
+            _articleCategoryRepository.Get(id).Returns(articleCategory);
+
+            //Act
+            _articleCategoryApplication.GetBy(id);
+
+            //Assert
+            _articleCategoryRepository.Received().Get(id);
+        }
     }
 }
